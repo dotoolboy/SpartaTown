@@ -13,6 +13,8 @@ public class BringName : MonoBehaviour
         // PlayerPrefs에서 저장된 PlayerName을 받아옴
         string playerName = PlayerPrefs.GetString("PlayerName", "Player");
         playerNameText.text = playerName;
+
+        
     }
 
     
